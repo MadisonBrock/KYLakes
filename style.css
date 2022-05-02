@@ -18,3 +18,16 @@ h1{
     font-size: 80px;
     
 }
+
+#flexbox{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.gmap_canvas {overflow:hidden;
+    background:none
+    !important;
+    height:400px;
+    width:500px}
