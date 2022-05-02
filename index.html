@@ -5,29 +5,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
 <body>
     <h1>Kentucky Lakes </h1>
 
-    <div>
-        <p>Kentucky Lake</p>
+
+
+
+    <div id="map">
+        <iframe
+        width="900px"
+        height="500px"
+        style="border: 3"
+        loading="lazy"
+        allowfullscreen referrerpolicy="no-referrer-when-downgrade"
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDnm3aK7MFRl_z1_Vcr1NAwnc6p0fqgAKg
+          &q=Kentucky">
+          
+      </iframe>
+    </div> 
+    <div class="info">
+        <h2>Kentucky Lake</h2>
         <p>Marina: Kenlake Marina</p>
         <p>Marina: Kentucky Dam Marina</p>
-        <p>Size:250.5 mi²</p>
+        <p>Size: 250.5 mi²</p>
         <p>Address:726, Chapel Hill Road, Marion, KY-42064, Kentucky, United States</p>
         <p>Boat Rentals: Yes</p>
         <p>Fishing: Yes</p>
         <p>Water Clarity: Heavily Stained</p>
         <p>Temperature: 61F</p>
-        <a href="https://www.kentuckylake.com/">
+        <a href="https://www.kentuckylake.com/">Link to Website.</a>
     </div>
-    <div>
-        <p>Lake Barkley</p>
-        <p>Marina:Lake Barkley Marina</p>
+
+
+    <div class="flexbox">
+        <div class="mapouter"><div class="gmap_canvas"><iframe width="500" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=Kentucky%20Dam%20Marina&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="300"></iframe><a href="https://123movies-to.org">123 movies</a><br><a href="https://www.embedgooglemap.net">how to add a map to wordpress</a></div></div>
+    </div>
+
+    
+    <div class="info">
+        <h2>Lake Barkley</h2>
+        <p>Marina: Lake Barkley Marina</p>
         <p>Marina: Eddy Creek Marina Resort</p>
-        <p>Size:90 Miles</p>
+        <p>Size: 90 Miles</p>
         <p>Address: 4200 State Park Rd, Cadiz, KY 42211</p>
         <p>Boat Rentals: Yes</p>
         <p>Fishing: Yes</p>
@@ -35,9 +58,9 @@
         <p>Temperature: 65F</p>
         <a href="https://lakebarkleymarina.com/">Link to Website.</a>
     </div>
-    <div>
-        <p>Lake Cumberland</p>
-        <p>Marina:Lake Cumberland Marina</p>
+    <div class="info">
+        <h2>Lake Cumberland</h2>
+        <p>Marina: Lake Cumberland Marina</p>
         <p>Marina: Lake Cumberland State Dock</p>
         <p>Size: 102 miles</p>
         <p>Address: 2108 State Hwy 1383, Russell Springs, KY 42642</p>
@@ -47,43 +70,43 @@
         <p>Temperature: 83F</p>
         <a href="https://statedock.com/?utm_source=gmb&utm_medium=yext">Link to website.</a>
     </div>
-    <div>
-        <p>Barren River Lake</p>
+    <div class="info">
+        <h2>Barren River Lake</h2>
         <p>Marina: Barren River State Park Marina</p>
         <p>Marina: Peninsula Marina</p>
         <p>Size: 15 miles</p>
         <p>Address: 1148 State Park Rd, Lucas, KY 42156</p>
         <p>Boat Rentals: Yes</p>
         <p>Fishing: Yes</p>
-        <p>Water Clarity: fogged</p>
+        <p>Water Clarity: Fogged</p>
         <p>Temperature: 81F</p>
-        <a href="https://www.barrenriverstatedock.com/"></a>
+        <a href="https://www.barrenriverstatedock.com/">Link to website.</a>
     </div>
-    <div>
-        <p>Green River Lake</p>
+    <div class="info">
+        <h2>Green River Lake</h2>
         <p>Marina: Green River Marina</p>
         <p>Marina: Emerald Isle Resort & Marina</p>
         <p>Size: 12 miles</p>
         <p>Address: 2892 Lone Valley Rd, Campbellsville, KY 42718</p>
         <p>Boat Rentals: Yes</p>
         <p>Fishing: Yes</p>
-        <p>Water Clarity: fogged</p>
+        <p>Water Clarity: Fogged</p>
         <p>Temperature: 81F</p>
-        <a href="https://campbellsvilleky.com/listings/green-river-marina-green-river-lake-pontoon-boat-rentals/"></a>
+        <a href="https://campbellsvilleky.com/listings/green-river-marina-green-river-lake-pontoon-boat-rentals/">Link to website.</a>
     </div>
-    <div>
-        <p>Taylorsville Lake</p>
+    <div class="info">
+        <h2>Taylorsville Lake</h2>
         <p>Marina: Taylorsville Lake Marina</p>
         <p>Size: 5 miles</p>
         <p>Address: 1240 Settlers Trace Rd, Taylorsville, KY 40071</p>
         <p>Boat Rentals: Yes</p>
         <p>Fishing: Yes</p>
-        <p>Water Clarity: fogged</p>
+        <p>Water Clarity: Fogged</p>
         <p>Temperature: 85F</p>
-        <a href="http://www.taylorsvillelakemarina.com/"></a>
+        <a href="http://www.taylorsvillelakemarina.com/">Link to website.</a>
     </div>
-    <div>
-        <p>Laurel River Lake</p>
+    <div class="info">
+        <h2>Laurel River Lake</h2>
         <p>Marina: Holly Bay Marina</p>
         <p>Marina: Grove Marina</p>
         <p>Size: 8 miles</p>
@@ -92,21 +115,22 @@
         <p>Fishing: Yes </p>
         <p>Water Clarity: Clearest in KY</p>
         <p>Temperature: 80F</p>
-        <a href="http://www.hollybaymarina.com/m/"></a>
+        <a href="http://www.hollybaymarina.com/m/">Link to website.</a>
     </div>
-    <div>
-        <p>Rough River Lake</p>
-        <p>Marina:</p>
-        <p>Marina: </p>
+    <div class="info">
+        <h2>Buckhorn Lake</h2>
+        <p>Marina: Duffs Bay Marina</p>
+        <p>Marina: Buckhorn Lake state resort park</p>
         <p>Size: 8 miles</p>
-        <p>Address:</p>
-        <p>Boat Rentals:</p>
-        <p>Fishing:</p>
-        <p>Water Clarity:</p>
-        <p>Temperature:</p>
+        <p>Address: 4441 KY-1833, Buckhorn, KY 41721</p>
+        <p>Boat Rentals: Yes</p>
+        <p>Fishing: Yes</p>
+        <p>Water Clarity: Clear ish</p>
+        <p>Temperature: 82F</p>
+        <a href="https://www.invertsports.com/">Link to website.</a>
     </div>
-    <div>
-        <p>Buckhorn Lake</p>
+    <div class="info">
+        <h2>Rough River Lake</h2>
         <p>Marina: Nicks Boat Dock</p>
         <p>Marina: Rough River Dam Resort State Park</p>
         <p>Size: 2 miles</p>
@@ -115,10 +139,10 @@
         <p>Fishing: Yes </p>
         <p>Water Clarity: Fogged</p>
         <p>Temperature: 81F</p>
-        <a href="https://www.nicksboatdock.net/"></a>
+        <a href="https://www.nicksboatdock.net/">Link to website.</a>
     </div>
-    <div>
-        <p>Cave Run Lake</p>
+    <div class="info">
+        <h2>Cave Run Lake</h2>
         <p>Marina: Scott's Creek Marina</p>
         <p>Marina: Longbow marina</p>
         <p>Size: 12 miles</p>
@@ -127,9 +151,12 @@
         <p>Fishing: Yes</p>
         <p>Water Clarity: Clear ish</p>
         <p>Temperature: 84F</p>
-        <a href="http://www.caverunmarinas.com/index.html"></a>
+        <a href="http://www.caverunmarinas.com/index.html">Link to website.</a>
     </div>
 
+
+
+    <script src="app.js"></script>
 </body>
 
 </html>
