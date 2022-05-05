@@ -20,10 +20,13 @@ h1{
 }
 
 .mapouter{
-    display: flex;
+    /* display: flex;
    flex-direction: row;
    justify-content: center;
-}
+
+*/
+margin: auto;
+} 
 
 .mapout{
     display: flex;
