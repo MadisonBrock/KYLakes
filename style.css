@@ -41,13 +41,14 @@ margin: auto;
     height:400px;
     width:500px}
     
-    .dropbtn {
-        background-color: #04AA6D;
-        color: white;
-        padding: 16px;
-        font-size: 16px;
+.dropbtn {
+     background-color: #8fbc8f;
+    color: white;
+    padding: 20px;
+        font-size: 40px;
         border: none;
         cursor: pointer;
+        margin-left: 1500px;
       }
       
       .dropbtn:hover, .dropbtn:focus {
@@ -80,6 +81,7 @@ margin: auto;
         overflow: auto;
         border: 1px solid #ddd;
         z-index: 1;
+        margin-left: 1500px;
       }
       
       .dropdown-content a {
