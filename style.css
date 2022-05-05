@@ -33,13 +33,6 @@ h1{
 margin: auto;
 } 
 
-.mapout{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-
 .gmap_canvas {overflow:hidden;
     background:none
     !important;
