@@ -46,7 +46,7 @@ margin: auto;
         font-size: 40px;
         border: none;
         cursor: pointer;
-        margin-left: 1500px;
+        margin-left: 1200px;
       }
       
       .dropbtn:hover, .dropbtn:focus {
@@ -67,7 +67,7 @@ margin: auto;
       #myInput:focus {outline: 3px solid #ddd;}
       
       .dropdown {
-        position: relative;
+        /* position: relative; */
         display: inline-block;
       }
       
